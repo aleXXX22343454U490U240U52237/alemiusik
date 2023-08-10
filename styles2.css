@@ -1,0 +1,19 @@
+audio {
+    background-color: #f0f0f0;
+}
+
+/* Cambia el color de los controles */
+audio::-webkit-media-controls-panel {
+    background-color: #333; /* Controla el fondo de los controles en navegadores basados en WebKit */
+    color: white; /* Controla el color del texto en navegadores basados en WebKit */
+}
+
+audio::-moz-media-controls-panel {
+    background-color: #333; /* Controla el fondo de los controles en navegadores basados en Gecko (Firefox) */
+    color: white; /* Controla el color del texto en navegadores basados en Gecko (Firefox) */
+}
+
+audio::-ms-media-controls {
+    background-color: #333; /* Controla el fondo de los controles en navegadores basados en Edge/IE */
+    color: white; /* Controla el color del texto en navegadores basados en Edge/IE */
+}

@@ -1,0 +1,24 @@
+}body {
+    margin: 0;
+    padding: 0;
+}
+
+.tabla-vertical {
+    display: flex; /* Utiliza Flexbox */
+    flex-direction: column; /* Establece la dirección del flujo a vertical */
+    align-items: flex-start; /* Alinea las celdas a la izquierda */
+    border: 1px solid #ccc; /* Opcional: Agrega un borde para simular una tabla */
+}
+
+.celda {
+    border: 1px solid #ccc; /* Opcional: Agrega un borde a las celdas */
+    padding: 10px; /* Espaciado interior de las celdas */
+}
+
+
+
+
+
+
+
+

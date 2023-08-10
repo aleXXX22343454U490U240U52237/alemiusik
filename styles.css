@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    display: flex;
+    align-items: center; /* Centra verticalmente el contenido en el contenedor */
+    background-color: #151B8D; /* Color de fondo del menú */
+    padding: 10px;
+}
+
+.menu h1 {
+    color: ; /* Color del título */
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 30px 20px;
+}
+
+li a:hover {
+    background-color: #2554C7;
+}
+
+img {
+    margin-left: auto; /* Empuja la imagen hacia la derecha del contenedor */
+    max-height: 80px; /* Establece la altura máxima de la imagen a 20px */
+}letra {
+	font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+
+}
+.imagenes {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #0041C2;
+}
+
+.imagenes img {
+    max-width: 100%;
+    max-height: 200px;
+    transition: transform 0.3s; /* Añadimos una transición suave */
+}
+
+.imagenes img:hover {
+    transform: scale(1.2); /* Escalamos la imagen al 120% cuando se pase el cursor sobre ella */
+}
+.imagenes {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #0020C2;
+}
+
+.imagenes img {
+    max-width: 100%;
+    max-height: 200px;
+    transition: transform 0.3s; /* Añadimos una transición suave */
+}
+
+.imagenes img:hover {
+    transform: scale(1.2); /* Escalamos la imagen al 120% cuando se pase el cursor sobre ella */
+}

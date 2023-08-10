@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333; /* Color de fondo del menú */
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; /* Hace que los elementos de la lista se muestren en línea (en una fila) */
+}
+
+li {
+    margin: 0;
+    padding: 0;
+}
+
+li a {
+    display: block;
+    color: white; /* Color del texto del menú */
+    text-decoration: none;
+    padding: 15px 20px; /* Espacio entre los enlaces */
+}
+
+li a:hover {
+    background-color: #555; /* Color de fondo cuando el enlace está bajo el cursor */
+}
